@@ -1,7 +1,7 @@
 # SignIn Page - React Frontend
 
 A user registration interface built with React, connected to a custom backend API.
-[View Server Projetc](https://github.com/emilyzugel/usersServer/)
+[View Server Project](https://github.com/emilyzugel/usersServer/)
 
 ## Features
 
