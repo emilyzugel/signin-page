@@ -33,14 +33,18 @@ form {
   gap: .7rem;
   padding: 2rem;
   width: 50vw;
+  min-width: 300px;
+  max-width: 400px;
 }
 
 form input {
+  width: 100%;
   padding: .6rem 1rem;
   border-radius: 1rem;
   border: 2px solid var(--dark-purple);
   background: transparent;
   color: var(--dark-purple);
+
 }
 
 form button {
@@ -59,4 +63,39 @@ form button:hover {
   transition: transform 500ms ease;
   transform: translateY(4px);
   background: linear-gradient(147deg, rgba(238, 174, 202, 1) 0%, rgba(66, 73, 128, 1) 100%);
+}
+
+.users {
+  display: block;
+  max-height: 300px;
+  overflow-y: auto;
+  width: 100%;
+  padding: 1.5rem;
+}
+
+.user-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 1.1rem;
+  margin: .5rem 0;
+  padding: 1rem 2rem;
+  border-radius: .5rem;
+}
+
+.user-card:hover {
+  background: rgba(0, 0, 0, .1);
+}
+
+.user-card button {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+
+.user-card button:hover {
+  transition: transform 400ms ease;
+  transform: translateY(4px);
 }
