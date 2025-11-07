@@ -62,8 +62,8 @@ function Home() {
 
       <div className='users background'>
         {users.slice().reverse().map(user => (
-          <div className='user-card' key={user.id}>
-            <div key={user.id} className='user-content'>
+          <div className='user-card' key={user._id}>
+            <div className='user-content'>
               <p>Name: {user.name}</p>
               <p>Email: {user.email}</p>
             </div>
